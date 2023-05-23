@@ -22,13 +22,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     align-items: flex-start;
+    margin-right: 55%;
 }
 .info{
     width: 170px;
     height: 47px;    
     display: block;
+    margin-top: 25%;
 }
 .course-name{
     width: 170px;
@@ -55,4 +56,68 @@ body{
     width: 605px;
     height: 0px;
     border: 1px solid #44494A;
+    margin-top: 10%;
+}
+.main-skills{
+    width: 625px;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+.main-skills_header{
+    width: 239px;
+    height: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;    
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.skils-list{
+    width: 625px;
+    height: 338.03px;    
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+}
+.list-item{
+    width: 283.97px;
+    height: 49.97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 25px;
+}
+.list-item p {
+    width: 245px;
+    height: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E3E3E3;    
+}
+.list-item img{
+    width: 24px;
+    height: 24px;
+}
+.cross{
+    transform: rotate(-45deg);
+}
+.disabled{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #9E9C9C !important;    
 }
